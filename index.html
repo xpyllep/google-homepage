@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+<title>preGOOGLE</title>
+</head>
+
+
+<body>
+<style media="screen">
+  div{
+    padding: 300px;
+    margin:auto ;
+    align-content: center;
+  }
+  input{
+    align-self: center;
+    width: 30%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  //:hover{
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  li a:hover {
+    background-color: red;
+}
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  //li a:hover {
+      background-color: #111;
+  }
+</style>
+
+<ul>
+ <li style="float:right"><a  href="#home">Home</a></li>
+ <li style="float:right"><a  href="#news">News</a></li>
+ <li style="float:right"><a class="active" href="#contact">Contact</a></li>
+ <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+  <div>
+    <img src="https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <form name="google_search" method="get" action="https://www.google.com.ua/search?">
+      <input type="text" name="q" value="">
+      <br>
+      <input type="submit" value="Search in Google!">
+    </form>
+  </div>
+
+
+
+</body>
